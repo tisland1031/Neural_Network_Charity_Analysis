@@ -14,6 +14,8 @@ This data analysis aims to predict whether applicants will be successful if fund
 - The following are considered to be the features of the model:
 ![feature_2](https://user-images.githubusercontent.com/96746207/176256359-9298b279-0eb3-445e-9d39-afc4297a6a20.png)
 - The following variables are neither targets nor features and should be removed from the input data:
+
+![drop_3](https://user-images.githubusercontent.com/96746207/176257780-883f23ec-973f-466a-936d-1beb52bdf14a.png)
 	
 ### Compiling, Training, and Evaluating the Model
 
