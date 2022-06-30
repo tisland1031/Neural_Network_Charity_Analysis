@@ -30,7 +30,7 @@ This data analysis aims to predict whether applicants will be successful if fund
 ![dev_2](https://user-images.githubusercontent.com/96746207/176256064-7e00c6fb-8f6c-4f3c-9a76-a17bb6e8bc59.png)
 
 ### Automated Optimizer
-- In this analysis, many different neurons, layers, and activation functions were not needed; instead, the automated optimizer did the work. Autoencoder allowed for one attempt to find the best model hyperparameters.
+- In this analysis, many different neurons, layers, and activation functions were not needed; instead, the automated optimizer did the work. Automated optimizer allowed for one attempt to find the best model hyperparameters.
 - 42 input features into six processing layers with varying neurons in each layer.
 
 Code listed below:
