@@ -20,7 +20,7 @@ This data analysis aims to predict whether applicants will be successful if fund
 ### Compiling, Training, and Evaluating the Model
 
 ### Initial Model
-- Neural network model had a performance rate of (.725) 73%.
+- Neural network model had a performance rate (.725) 73%.
 - 42 input features into three processing layers:
   - First layer: 80 neurons
   - Second layer: 30 neurons
@@ -29,8 +29,8 @@ This data analysis aims to predict whether applicants will be successful if fund
 ![Dev_1](https://user-images.githubusercontent.com/96746207/176256049-f6366a1d-3459-4a2c-ae8a-87c4172bdc04.png)
 ![dev_2](https://user-images.githubusercontent.com/96746207/176256064-7e00c6fb-8f6c-4f3c-9a76-a17bb6e8bc59.png)
 
-### Autoencoder 
-- In this analysis, many different neurons, layers, and activation functions were not needed; instead, the autoencoder did the work. Autoencoder allowed for one attempt to find the best model hyperparameters.
+### Automated Optimizer
+- In this analysis, many different neurons, layers, and activation functions were not needed; instead, the automated optimizer did the work. Autoencoder allowed for one attempt to find the best model hyperparameters.
 - 42 input features into six processing layers with varying neurons in each layer.
 
 Code listed below:
@@ -45,7 +45,7 @@ Code listed below:
 
 
 ## Summary
--	The starting attempt for the neural network model was 73% accuracy. After applying the autoencoder, the maximum accuracy achieved was 73%. The autocoder achieved a few decimal higher from the orginal model. The target accuracy of 75% or higher wasn’t met by utilizing a neural network model. 
+-	The starting attempt for the neural network model was 73% accuracy. After applying the automated optimizer, the maximum accuracy achieved was 73%. The automated optimizer performed a few decimals higher than the original model. The target accuracy of 75% or higher wasn’t met by utilizing a neural network model. 
 
 ### Recommendation:
 - Recommend using a supervised machine learning random forest algorithm for this analysis. 
